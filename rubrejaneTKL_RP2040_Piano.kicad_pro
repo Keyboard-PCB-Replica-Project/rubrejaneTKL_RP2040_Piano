@@ -493,7 +493,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerber/",
-      "pos_files": "../../../Downloads/",
+      "pos_files": "BOM & CPL/",
       "specctra_dsn": "",
       "step": "../../../Downloads/keycultTKL.step",
       "svg": "C:/Users/user/Desktop/",

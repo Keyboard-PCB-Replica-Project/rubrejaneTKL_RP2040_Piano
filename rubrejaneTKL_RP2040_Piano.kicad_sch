@@ -4726,10 +4726,22 @@
 		(uuid "ceb240e1-cb4d-4ab4-8da7-b1b127cf4555")
 	)
 	(junction
+		(at 406.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d08cc6ee-80b1-42ea-aedd-bd5096788fac")
+	)
+	(junction
 		(at 431.8 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1556e1e-8a7c-4bb8-ad5c-4103d3221405")
+	)
+	(junction
+		(at 401.32 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16907cd-ab77-4918-9730-8a6b47b77894")
 	)
 	(junction
 		(at 416.56 48.26)
@@ -5345,7 +5357,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 44.45) (xy 401.32 66.04)
+			(xy 401.32 44.45) (xy 401.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6755,6 +6767,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 58.42) (xy 421.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc77fc0-4f0a-4ecf-851a-c5e75ba3af0e")
+	)
+	(wire
+		(pts
 			(xy 491.49 93.98) (xy 506.73 93.98)
 		)
 		(stroke
@@ -6885,7 +6907,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 58.42) (xy 421.64 58.42)
+			(xy 391.16 58.42) (xy 406.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7132,6 +7154,16 @@
 			(type default)
 		)
 		(uuid "cf81767b-945a-4f00-80ab-7adeec87de6e")
+	)
+	(wire
+		(pts
+			(xy 401.32 48.26) (xy 401.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d034ead6-3d4b-47a0-947c-38a83b6fa1dc")
 	)
 	(wire
 		(pts
@@ -9147,7 +9179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00134527-ad73-4ae1-b891-c605c18990be")
-		(property "Reference" "D49"
+		(property "Reference" "D50"
 			(at 494.03 90.1699 90)
 			(effects
 				(font
@@ -9217,9 +9249,9 @@
 			(uuid "047f5c9e-7e1d-44ef-bed3-055ecc0ac1ad")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D49")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "025ad069-f077-47fc-9c0a-2cbb7b2b56ed")
-		(property "Reference" "D56"
+		(property "Reference" "D57"
 			(at 317.5 107.9499 90)
 			(effects
 				(font
@@ -9305,9 +9337,9 @@
 			(uuid "8fa6f39f-5c89-4689-9e46-f7cce2bfcff7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D56")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -9323,7 +9355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "028ed6b0-2c9e-4ceb-a695-476ed5469c30")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 439.42 54.6099 90)
 			(effects
 				(font
@@ -9393,9 +9425,9 @@
 			(uuid "3ea37982-d940-4941-a8e4-61f70323e03e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -9410,7 +9442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02c6e6fe-6b2a-4f82-8517-270686c2da4f")
-		(property "Reference" "MX66"
+		(property "Reference" "MX67"
 			(at 271.272 114.554 0)
 			(effects
 				(font
@@ -9460,9 +9492,9 @@
 			(uuid "10ea38ed-3546-494c-aa0d-2d3e2061fa58")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX66")
+					(reference "MX67")
 					(unit 1)
 				)
 			)
@@ -9477,7 +9509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02dfa56f-f82e-450b-8fe4-e719273d5044")
-		(property "Reference" "MX40"
+		(property "Reference" "MX41"
 			(at 332.232 78.994 0)
 			(effects
 				(font
@@ -9527,9 +9559,9 @@
 			(uuid "fc0ee2fb-574a-435a-9504-7137e5b5acf1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX40")
+					(reference "MX41")
 					(unit 1)
 				)
 			)
@@ -9544,7 +9576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03928574-9a98-4545-8a8c-777fbde4695c")
-		(property "Reference" "MX25"
+		(property "Reference" "MX26"
 			(at 377.952 61.214 0)
 			(effects
 				(font
@@ -9594,9 +9626,9 @@
 			(uuid "98fad601-0a0d-4a8b-b10c-78f46ac1743e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX25")
+					(reference "MX26")
 					(unit 1)
 				)
 			)
@@ -9611,7 +9643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03dc8033-c43d-4981-b8a3-33c16c3e022f")
-		(property "Reference" "MX34"
+		(property "Reference" "MX35"
 			(at 524.002 61.214 0)
 			(effects
 				(font
@@ -9661,9 +9693,9 @@
 			(uuid "e97a2040-3671-465b-a4a2-bb15ab442dd8")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX34")
+					(reference "MX35")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "049d053d-c33d-4a51-9df7-89224c4acbe7")
-		(property "Reference" "D64"
+		(property "Reference" "D65"
 			(at 439.42 107.9499 90)
 			(effects
 				(font
@@ -9749,9 +9781,9 @@
 			(uuid "d61d1f9e-6849-4c4f-8484-1ce585eb1f42")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D64")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -9837,7 +9869,7 @@
 			(uuid "3600baaf-8a23-4b84-b520-50307aae53d2")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D8")
 					(unit 1)
@@ -9855,7 +9887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0761f562-266e-41d2-87d6-5ccf9c8a7908")
-		(property "Reference" "D71"
+		(property "Reference" "D72"
 			(at 347.98 125.7299 90)
 			(effects
 				(font
@@ -9925,9 +9957,9 @@
 			(uuid "32e2dc3b-957c-4824-86ac-e7fb00fbef8f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D71")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -9943,7 +9975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d5001d-286f-4c61-8260-98b2a5b7eff5")
-		(property "Reference" "D75"
+		(property "Reference" "D76"
 			(at 408.94 125.7299 90)
 			(effects
 				(font
@@ -10013,9 +10045,9 @@
 			(uuid "4be514c7-7d9b-464b-b268-f8806dc4d2a6")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D75")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -10031,7 +10063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "099d0115-a67e-4782-b3f1-7baa9ef33233")
-		(property "Reference" "D25"
+		(property "Reference" "D26"
 			(at 378.46 72.3899 90)
 			(effects
 				(font
@@ -10101,9 +10133,9 @@
 			(uuid "5dda6f0e-f1e7-4a1f-963c-16140e974b40")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D25")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -10119,7 +10151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09f26e9e-b472-43bf-972b-ded7bdcf44f5")
-		(property "Reference" "D34"
+		(property "Reference" "D35"
 			(at 524.51 72.3899 90)
 			(effects
 				(font
@@ -10189,9 +10221,9 @@
 			(uuid "8d0380c9-a1ce-4b9a-94b6-ae84a9725899")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D34")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -10206,7 +10238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ab089d7-e706-410a-a6cc-ac4a4b090660")
-		(property "Reference" "MX22"
+		(property "Reference" "MX23"
 			(at 332.232 61.214 0)
 			(effects
 				(font
@@ -10256,9 +10288,9 @@
 			(uuid "cb435c72-c982-4a1b-a22f-8a10729da2ef")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX22")
+					(reference "MX23")
 					(unit 1)
 				)
 			)
@@ -10322,7 +10354,7 @@
 			(uuid "48b2cd61-4754-4d10-a49f-8081076df2f8")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR017")
 					(unit 1)
@@ -10340,7 +10372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c4adad7-5f4c-4f9f-a247-d08df3b0a350")
-		(property "Reference" "D57"
+		(property "Reference" "D58"
 			(at 332.74 107.9499 90)
 			(effects
 				(font
@@ -10410,9 +10442,9 @@
 			(uuid "b22e0c7f-861b-494b-8cf7-f4a52d17a1f6")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D57")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -10428,7 +10460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c97f13d-2ea0-4f28-ae30-82ca79315a8a")
-		(property "Reference" "D28"
+		(property "Reference" "D29"
 			(at 424.18 72.3899 90)
 			(effects
 				(font
@@ -10498,9 +10530,9 @@
 			(uuid "59bc4556-2935-4af3-9f4a-8cbce1c9f00d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D28")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10599,7 @@
 			(uuid "5f3d5594-9231-4236-b78d-7ae77698b0e1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C8")
 					(unit 1)
@@ -10655,7 +10687,7 @@
 			(uuid "4622a818-bdad-4c99-8fa5-094e0a73c00a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D1")
 					(unit 1)
@@ -10673,7 +10705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106642e5-accb-447b-87fa-0cf98577c584")
-		(property "Reference" "D81"
+		(property "Reference" "D82"
 			(at 287.02 143.5099 90)
 			(effects
 				(font
@@ -10743,9 +10775,9 @@
 			(uuid "000844e7-cbc2-4684-8195-8a1bf283689e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D81")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -10760,7 +10792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1115086e-63b3-42ce-97b0-41f55b49e4ea")
-		(property "Reference" "MX15"
+		(property "Reference" "MX16"
 			(at 508.762 43.434 0)
 			(effects
 				(font
@@ -10810,9 +10842,9 @@
 			(uuid "3c9e8490-2d24-494b-84fa-450787765fee")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX15")
+					(reference "MX16")
 					(unit 1)
 				)
 			)
@@ -10827,7 +10859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "116d2206-c2c2-4a7b-8cf1-ff1a76ae664d")
-		(property "Reference" "MX69"
+		(property "Reference" "MX70"
 			(at 316.992 114.554 0)
 			(effects
 				(font
@@ -10877,9 +10909,9 @@
 			(uuid "394a275d-7037-4291-b9d7-d8a536eba597")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX69")
+					(reference "MX70")
 					(unit 1)
 				)
 			)
@@ -10944,7 +10976,7 @@
 			(uuid "515479ba-e458-458a-9a2c-353fb52da6c2")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "R2")
 					(unit 1)
@@ -11011,7 +11043,7 @@
 			(uuid "92ac5d2b-3113-469d-a980-31eddacb7c3f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "R3")
 					(unit 1)
@@ -11028,7 +11060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1474d03f-d9d7-4ab1-a201-4b6f9bfe15b0")
-		(property "Reference" "MX70"
+		(property "Reference" "MX71"
 			(at 332.232 114.554 0)
 			(effects
 				(font
@@ -11078,9 +11110,9 @@
 			(uuid "fc19c530-3109-406f-814f-8bffd8bed379")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX70")
+					(reference "MX71")
 					(unit 1)
 				)
 			)
@@ -11095,7 +11127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1484d00e-0e30-42c2-9730-4d795fd0559f")
-		(property "Reference" "MX58"
+		(property "Reference" "MX59"
 			(at 347.472 96.774 0)
 			(effects
 				(font
@@ -11145,9 +11177,9 @@
 			(uuid "2d825947-05d1-489b-9c45-2b5067f48bb5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX58")
+					(reference "MX59")
 					(unit 1)
 				)
 			)
@@ -11163,7 +11195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157851fa-0b57-4513-bf15-9739a9d98d55")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 271.78 72.3899 90)
 			(effects
 				(font
@@ -11233,9 +11265,9 @@
 			(uuid "1b9716f7-5db5-4b07-929d-18bc766a25a3")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -11321,7 +11353,7 @@
 			(uuid "1a5afcf0-5c48-4d17-b84d-b383a6db81cd")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D6")
 					(unit 1)
@@ -11339,7 +11371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15e6ab34-48ad-4c81-9a11-7db093c46986")
-		(property "Reference" "D36"
+		(property "Reference" "D37"
 			(at 271.78 90.1699 90)
 			(effects
 				(font
@@ -11409,9 +11441,9 @@
 			(uuid "1f655db9-2202-49e7-9f90-a778b8bbf82d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D36")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -11476,7 +11508,7 @@
 			(uuid "60ef95a4-a4c7-4077-a5c0-995d64390dc1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX5")
 					(unit 1)
@@ -11493,7 +11525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18e6d32d-efe0-4aad-9b59-23e2e3f6603e")
-		(property "Reference" "MX72"
+		(property "Reference" "MX73"
 			(at 362.712 114.554 0)
 			(effects
 				(font
@@ -11543,9 +11575,9 @@
 			(uuid "4fc77afe-d05b-4fa5-a5b5-300a50f6aab5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX72")
+					(reference "MX73")
 					(unit 1)
 				)
 			)
@@ -11631,7 +11663,7 @@
 			(uuid "eb4271eb-a3f2-46a2-ad7a-d364bb91b95d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D2")
 					(unit 1)
@@ -11698,7 +11730,7 @@
 			(uuid "01e94a9e-da0e-4ffa-b2ed-33c80892e846")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX3")
 					(unit 1)
@@ -11715,7 +11747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b8fd8b1-3b46-4713-bb23-0dec1e7fcd86")
-		(property "Reference" "MX89"
+		(property "Reference" "MX90"
 			(at 524.002 132.334 0)
 			(effects
 				(font
@@ -11765,9 +11797,9 @@
 			(uuid "a6fe3fa5-7986-4a3b-b2bf-35856081be9b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX89")
+					(reference "MX90")
 					(unit 1)
 				)
 			)
@@ -11832,7 +11864,7 @@
 			(uuid "3eadd631-6957-4db5-a6e4-4bbd19d64118")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "R1")
 					(unit 1)
@@ -11849,7 +11881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dd636d8-1c42-4b6a-9d16-b85d4dea540c")
-		(property "Reference" "MX19"
+		(property "Reference" "MX20"
 			(at 286.512 61.214 0)
 			(effects
 				(font
@@ -11899,9 +11931,9 @@
 			(uuid "4eb8dd03-9108-4654-82eb-b0553cebc2ea")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX19")
+					(reference "MX20")
 					(unit 1)
 				)
 			)
@@ -11981,7 +12013,7 @@
 			(uuid "f3d83044-6b2e-4076-8394-266eaf1e88c0")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "U4")
 					(unit 1)
@@ -11998,7 +12030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f05d7fb-ff90-4836-a285-5c3996790746")
-		(property "Reference" "MX30"
+		(property "Reference" "MX31"
 			(at 454.152 61.214 0)
 			(effects
 				(font
@@ -12048,9 +12080,9 @@
 			(uuid "4f8b60af-0717-4c4a-b714-67d4280bfdb5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX30")
+					(reference "MX31")
 					(unit 1)
 				)
 			)
@@ -12114,7 +12146,7 @@
 			(uuid "f1a845b0-766c-455f-bc5d-c04568d3e18c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR015")
 					(unit 1)
@@ -12131,7 +12163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20e4fc89-7760-4028-a584-f2b99f504bb9")
-		(property "Reference" "MX12"
+		(property "Reference" "MX13"
 			(at 454.152 43.434 0)
 			(effects
 				(font
@@ -12181,9 +12213,9 @@
 			(uuid "2945094f-e806-4f7b-82ba-4fa519aa6ebd")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX12")
+					(reference "MX13")
 					(unit 1)
 				)
 			)
@@ -12198,7 +12230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "212dba01-01c1-456d-9b65-10dbac4805cc")
-		(property "Reference" "MX17"
+		(property "Reference" "MX18"
 			(at 256.032 61.214 0)
 			(effects
 				(font
@@ -12248,9 +12280,9 @@
 			(uuid "a9a8b8e5-9317-4595-8059-b7fdf6820172")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX17")
+					(reference "MX18")
 					(unit 1)
 				)
 			)
@@ -12265,7 +12297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2170c976-b1af-4d27-a050-072749dcc0fa")
-		(property "Reference" "MX13"
+		(property "Reference" "MX14"
 			(at 469.392 43.434 0)
 			(effects
 				(font
@@ -12315,9 +12347,9 @@
 			(uuid "3d53011b-b726-4e3d-a5d7-284a9365180f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX13")
+					(reference "MX14")
 					(unit 1)
 				)
 			)
@@ -12382,7 +12414,7 @@
 			(uuid "db297324-505c-4148-b5ce-82b5234c1093")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX1")
 					(unit 1)
@@ -12399,7 +12431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22618352-9686-42c3-9c18-c1de09de5483")
-		(property "Reference" "MX67"
+		(property "Reference" "MX68"
 			(at 286.512 114.554 0)
 			(effects
 				(font
@@ -12449,9 +12481,9 @@
 			(uuid "9aa5d1db-95a3-4c6a-a98d-2e9e970facf9")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX67")
+					(reference "MX68")
 					(unit 1)
 				)
 			)
@@ -12466,7 +12498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "237e5a7a-344f-4684-a037-c2a729fe2bd6")
-		(property "Reference" "MX81"
+		(property "Reference" "MX82"
 			(at 286.512 132.334 0)
 			(effects
 				(font
@@ -12516,9 +12548,9 @@
 			(uuid "3bf161b7-e469-4c46-8529-f3682675682f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX81")
+					(reference "MX82")
 					(unit 1)
 				)
 			)
@@ -12533,7 +12565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23ee4488-0e7f-4977-8247-7c8f5d8b08b0")
-		(property "Reference" "MX84"
+		(property "Reference" "MX85"
 			(at 408.432 132.334 0)
 			(effects
 				(font
@@ -12583,9 +12615,9 @@
 			(uuid "ac9eaea6-0e36-4d53-8b07-1eb39714ef99")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX84")
+					(reference "MX85")
 					(unit 1)
 				)
 			)
@@ -12653,7 +12685,7 @@
 			(uuid "a62ac6c4-c543-47a1-be57-2bc8ab784fb1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C2")
 					(unit 1)
@@ -12671,7 +12703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25083bd9-49c9-4b32-9e9e-f00c79d4a3e1")
-		(property "Reference" "D26"
+		(property "Reference" "D27"
 			(at 393.7 72.3899 90)
 			(effects
 				(font
@@ -12741,9 +12773,9 @@
 			(uuid "e8bc87e3-9640-451b-a296-1fbb44d748eb")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D26")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -12758,7 +12790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27c372f0-bf31-4a94-897e-877f0b033922")
-		(property "Reference" "MX62"
+		(property "Reference" "MX63"
 			(at 408.432 96.774 0)
 			(effects
 				(font
@@ -12808,9 +12840,9 @@
 			(uuid "9bbec406-7005-45ed-8cd2-dba74893bf88")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX62")
+					(reference "MX63")
 					(unit 1)
 				)
 			)
@@ -12826,7 +12858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d07af55-8f33-424f-bd94-5480b762e5b9")
-		(property "Reference" "D83"
+		(property "Reference" "D84"
 			(at 393.7 143.5099 90)
 			(effects
 				(font
@@ -12896,9 +12928,9 @@
 			(uuid "f8723ee9-152b-47e2-9973-ae6c2b9ee5ac")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D83")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -12962,7 +12994,7 @@
 			(uuid "39df8732-226c-4525-ad6b-56f2083e48c1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR07")
 					(unit 1)
@@ -12980,7 +13012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f18a6d3-cc52-4933-b6bc-43a02c872105")
-		(property "Reference" "D40"
+		(property "Reference" "D41"
 			(at 332.74 90.1699 90)
 			(effects
 				(font
@@ -13050,9 +13082,9 @@
 			(uuid "0fd8b56b-36cc-49fc-bd6c-27563e197abf")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D40")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -13120,7 +13152,7 @@
 			(uuid "7fdaaef5-3d20-419b-b54b-a3135f90b759")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C4")
 					(unit 1)
@@ -13137,7 +13169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "312e8007-493c-4669-8f3a-8187208d043a")
-		(property "Reference" "MX63"
+		(property "Reference" "MX64"
 			(at 423.672 96.774 0)
 			(effects
 				(font
@@ -13187,9 +13219,9 @@
 			(uuid "ce64f11b-4e43-4d56-b46a-6e9c724ac1f7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX63")
+					(reference "MX64")
 					(unit 1)
 				)
 			)
@@ -13204,7 +13236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3166c0a3-98f8-4185-8440-73c6699efbde")
-		(property "Reference" "MX42"
+		(property "Reference" "MX43"
 			(at 362.712 78.994 0)
 			(effects
 				(font
@@ -13254,9 +13286,9 @@
 			(uuid "d503ae1d-7e0c-42ff-ba47-5d4ca780487a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX42")
+					(reference "MX43")
 					(unit 1)
 				)
 			)
@@ -13271,7 +13303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35a7859c-30bf-47bc-9810-7fb12c9cb6a9")
-		(property "Reference" "MX38"
+		(property "Reference" "MX39"
 			(at 301.752 78.994 0)
 			(effects
 				(font
@@ -13321,9 +13353,9 @@
 			(uuid "2064c876-c095-447b-a940-f726df55210d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX38")
+					(reference "MX39")
 					(unit 1)
 				)
 			)
@@ -13338,7 +13370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37a52d41-d62c-480a-abf8-5e6ec55b9d83")
-		(property "Reference" "MX28"
+		(property "Reference" "MX29"
 			(at 423.672 61.214 0)
 			(effects
 				(font
@@ -13388,9 +13420,9 @@
 			(uuid "c2a40542-f08a-4804-b21b-fc5622f92e61")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX28")
+					(reference "MX29")
 					(unit 1)
 				)
 			)
@@ -13406,7 +13438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37edf568-2476-42e7-9463-91da190ec820")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 469.9 72.3899 90)
 			(effects
 				(font
@@ -13476,9 +13508,9 @@
 			(uuid "855abccf-37ec-4df1-ba5c-cd308a687769")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -13493,7 +13525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "382ef7b9-9bc6-48f9-a723-b9fc0c160385")
-		(property "Reference" "MX76"
+		(property "Reference" "MX77"
 			(at 423.672 114.554 0)
 			(effects
 				(font
@@ -13543,9 +13575,9 @@
 			(uuid "646c7205-9f77-446d-96e8-f568ffd598c0")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX76")
+					(reference "MX77")
 					(unit 1)
 				)
 			)
@@ -13561,7 +13593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389d0e25-125e-4d2c-86c0-e99b4d726212")
-		(property "Reference" "D27"
+		(property "Reference" "D28"
 			(at 408.94 72.3899 90)
 			(effects
 				(font
@@ -13631,9 +13663,9 @@
 			(uuid "6db83da6-47fb-4530-a058-69b31fb34075")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D27")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -13866,7 +13898,7 @@
 			(uuid "eb0d0d9e-a14a-46bc-8b7d-75acd4840709")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "U3")
 					(unit 1)
@@ -13884,7 +13916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aaa4e78-5df9-474b-8691-be5274d77f88")
-		(property "Reference" "D33"
+		(property "Reference" "D34"
 			(at 509.27 72.3899 90)
 			(effects
 				(font
@@ -13954,9 +13986,9 @@
 			(uuid "792498c9-4230-4ea1-a335-6b526dcf7446")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D33")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -13972,7 +14004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c3c130f-c5fc-43b5-ab45-fe41d1600ea0")
-		(property "Reference" "D54"
+		(property "Reference" "D55"
 			(at 287.02 107.9499 90)
 			(effects
 				(font
@@ -14042,9 +14074,9 @@
 			(uuid "6d5c2df4-e101-4027-839c-130b1cb53503")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D54")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -14059,7 +14091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f5cae8f-e9fd-4dfd-8dd2-f474e6244277")
-		(property "Reference" "MX44"
+		(property "Reference" "MX45"
 			(at 393.192 78.994 0)
 			(effects
 				(font
@@ -14109,9 +14141,9 @@
 			(uuid "6a508c72-bbe4-4dab-a8d7-c2246ecb91bf")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX44")
+					(reference "MX45")
 					(unit 1)
 				)
 			)
@@ -14179,7 +14211,7 @@
 			(uuid "3ea8a07a-1284-4053-bfbc-ec436ad0662c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C5")
 					(unit 1)
@@ -14196,7 +14228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "405da94d-31ca-4ba3-a5a5-61bb5007267d")
-		(property "Reference" "MX32"
+		(property "Reference" "MX33"
 			(at 493.522 61.214 0)
 			(effects
 				(font
@@ -14246,9 +14278,9 @@
 			(uuid "adc06e9b-7272-4623-aa4a-54de1f984d0b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX32")
+					(reference "MX33")
 					(unit 1)
 				)
 			)
@@ -14263,7 +14295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "418ffe27-927e-47fb-8b53-1d915cf50004")
-		(property "Reference" "MX57"
+		(property "Reference" "MX58"
 			(at 332.232 96.774 0)
 			(effects
 				(font
@@ -14313,9 +14345,9 @@
 			(uuid "7215859d-836f-4970-8483-6629b27b54ff")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX57")
+					(reference "MX58")
 					(unit 1)
 				)
 			)
@@ -14330,7 +14362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "443828ea-27dc-4c72-bd31-f9ebf79acbef")
-		(property "Reference" "MX59"
+		(property "Reference" "MX60"
 			(at 362.712 96.774 0)
 			(effects
 				(font
@@ -14380,9 +14412,9 @@
 			(uuid "f52fd7bc-6c30-4743-88d7-168ea99e1880")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX59")
+					(reference "MX60")
 					(unit 1)
 				)
 			)
@@ -14446,7 +14478,7 @@
 			(uuid "91f9f6e4-1949-403f-a78a-25c0b1d979fe")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR016")
 					(unit 1)
@@ -14515,7 +14547,7 @@
 			(uuid "e11e9d14-f84a-42bc-8164-acdea39a740a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C14")
 					(unit 1)
@@ -14533,7 +14565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "499debbe-7358-4e1d-b030-7e280210b8c7")
-		(property "Reference" "D62"
+		(property "Reference" "D63"
 			(at 408.94 107.9499 90)
 			(effects
 				(font
@@ -14603,9 +14635,9 @@
 			(uuid "5e253c74-4e06-468c-958a-093189715e68")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D62")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -14669,7 +14701,7 @@
 			(uuid "d44f2d82-6b3d-4877-8666-3333146db81e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR024")
 					(unit 1)
@@ -14687,7 +14719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a5b9776-0691-4c05-9585-7932d985be2e")
-		(property "Reference" "D73"
+		(property "Reference" "D74"
 			(at 378.46 125.7299 90)
 			(effects
 				(font
@@ -14757,9 +14789,9 @@
 			(uuid "405885d9-cdb5-474c-bcd3-0d4e2b307435")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D73")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -14774,7 +14806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4acda885-de91-4d8a-a567-9aefc036612f")
-		(property "Reference" "MX83"
+		(property "Reference" "MX84"
 			(at 393.192 132.334 0)
 			(effects
 				(font
@@ -14824,9 +14856,9 @@
 			(uuid "57e2b47d-666f-48d4-bf95-68c842a01b7e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX83")
+					(reference "MX84")
 					(unit 1)
 				)
 			)
@@ -14842,7 +14874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be5c342-115b-4702-87e4-41acd29aa63b")
-		(property "Reference" "D58"
+		(property "Reference" "D59"
 			(at 347.98 107.9499 90)
 			(effects
 				(font
@@ -14912,9 +14944,9 @@
 			(uuid "b0cfa39e-2749-4dcb-84e8-eda990ffbe0e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D58")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -14985,7 +15017,7 @@
 			(uuid "ec6894c2-b29f-499a-a3da-4cd9e4e2f34c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "Y1")
 					(unit 1)
@@ -15002,7 +15034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "513e8bde-166f-462e-bcff-42e4fb38bd1d")
-		(property "Reference" "MX41"
+		(property "Reference" "MX42"
 			(at 347.472 78.994 0)
 			(effects
 				(font
@@ -15052,9 +15084,9 @@
 			(uuid "196278be-359f-4347-987a-6b400da6e570")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX41")
+					(reference "MX42")
 					(unit 1)
 				)
 			)
@@ -15070,7 +15102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5273cad2-6af3-446f-91d6-0943e74972e7")
-		(property "Reference" "D50"
+		(property "Reference" "D51"
 			(at 509.27 90.1699 90)
 			(effects
 				(font
@@ -15140,9 +15172,9 @@
 			(uuid "dfb58e2f-8b95-4669-899f-9fcb4d996da1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D50")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -15157,7 +15189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52a0832d-1326-4540-b1cb-9a583acf838e")
-		(property "Reference" "MX65"
+		(property "Reference" "MX66"
 			(at 256.032 114.554 0)
 			(effects
 				(font
@@ -15207,9 +15239,9 @@
 			(uuid "0e626140-2d93-4e44-97fe-41bdbc7d3009")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX65")
+					(reference "MX66")
 					(unit 1)
 				)
 			)
@@ -15225,7 +15257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54b6c5f0-5bcd-456d-b4fb-f6e3543c0a12")
-		(property "Reference" "D21"
+		(property "Reference" "D22"
 			(at 317.5 72.3899 90)
 			(effects
 				(font
@@ -15295,9 +15327,9 @@
 			(uuid "88b391fd-2c41-43c0-a2df-0d2793f2fbd4")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D21")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -15313,7 +15345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55027b74-a4ae-4e94-aeee-40eca0c6c306")
-		(property "Reference" "D46"
+		(property "Reference" "D47"
 			(at 424.18 90.1699 90)
 			(effects
 				(font
@@ -15383,9 +15415,9 @@
 			(uuid "9074fb99-9a0c-435a-a77a-b3839aaa0e17")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D46")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -15400,7 +15432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "568dbac7-792f-41f5-9631-562f72727614")
-		(property "Reference" "MX24"
+		(property "Reference" "MX25"
 			(at 362.712 61.214 0)
 			(effects
 				(font
@@ -15450,9 +15482,9 @@
 			(uuid "9a1ecb73-de96-4c55-b683-34a8bc020af1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX24")
+					(reference "MX25")
 					(unit 1)
 				)
 			)
@@ -15467,7 +15499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57fe32b8-74fd-447a-8af1-0f647f260cfa")
-		(property "Reference" "MX86"
+		(property "Reference" "MX87"
 			(at 438.912 132.334 0)
 			(effects
 				(font
@@ -15517,9 +15549,9 @@
 			(uuid "e8184c92-fd34-4b44-8b4f-19ca77f49b90")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX86")
+					(reference "MX87")
 					(unit 1)
 				)
 			)
@@ -15584,7 +15616,7 @@
 			(uuid "a98bff18-c0cd-4acc-9227-a7f1f86735db")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR014")
 					(unit 1)
@@ -15601,7 +15633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d04fcc0-822b-4466-9df0-552cc6c31b76")
-		(property "Reference" "MX60"
+		(property "Reference" "MX61"
 			(at 377.952 96.774 0)
 			(effects
 				(font
@@ -15651,9 +15683,9 @@
 			(uuid "125afdab-3e9e-42f1-a188-ecebc7b8601b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX60")
+					(reference "MX61")
 					(unit 1)
 				)
 			)
@@ -15669,7 +15701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d41408b-540e-4706-bcc8-347e4cfebc41")
-		(property "Reference" "D30"
+		(property "Reference" "D31"
 			(at 454.66 72.3899 90)
 			(effects
 				(font
@@ -15739,9 +15771,9 @@
 			(uuid "15fc9009-33df-4517-826b-aeda7f31ad96")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D30")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -15806,7 +15838,7 @@
 			(uuid "0af78a70-f95e-45b4-b24a-b8d91b6e1c80")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX7")
 					(unit 1)
@@ -15873,7 +15905,7 @@
 			(uuid "db55b19e-513c-455e-9318-993ac7cafd3c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "R4")
 					(unit 1)
@@ -15890,7 +15922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "649879a9-c02a-4ceb-8686-3de5e0eed6a4")
-		(property "Reference" "MX68"
+		(property "Reference" "MX69"
 			(at 301.752 114.554 0)
 			(effects
 				(font
@@ -15940,9 +15972,9 @@
 			(uuid "ff5b9b0d-a474-4781-ae6b-ff0232e5d78b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX68")
+					(reference "MX69")
 					(unit 1)
 				)
 			)
@@ -15957,7 +15989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64d64de1-55b6-45c3-bd1e-8652d0e084b7")
-		(property "Reference" "MX46"
+		(property "Reference" "MX47"
 			(at 423.672 78.994 0)
 			(effects
 				(font
@@ -16007,9 +16039,9 @@
 			(uuid "7040cb2d-1450-41f0-bc5f-13bcb4068dd2")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX46")
+					(reference "MX47")
 					(unit 1)
 				)
 			)
@@ -16025,7 +16057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "676074ab-b5ca-41fb-bf89-82cf5b837259")
-		(property "Reference" "D67"
+		(property "Reference" "D68"
 			(at 287.02 125.7299 90)
 			(effects
 				(font
@@ -16095,9 +16127,9 @@
 			(uuid "bcf522f8-632f-4ade-84ef-564049d1d4a8")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D67")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -16112,7 +16144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68014a56-dce0-46a5-b08d-e6610ad6cfcc")
-		(property "Reference" "MX39"
+		(property "Reference" "MX40"
 			(at 316.992 78.994 0)
 			(effects
 				(font
@@ -16162,9 +16194,9 @@
 			(uuid "48e0da4d-763e-44c8-a776-27bea1d24a1b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX39")
+					(reference "MX40")
 					(unit 1)
 				)
 			)
@@ -16180,7 +16212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68afd4cd-692a-4495-9cec-b90d38b7969f")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 424.18 54.6099 90)
 			(effects
 				(font
@@ -16250,9 +16282,9 @@
 			(uuid "6e87c21e-97e1-48ae-a301-7d7fe41e6582")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -16320,7 +16352,7 @@
 			(uuid "29122188-aa39-4db8-99ec-1a53b7773696")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D93")
 					(unit 1)
@@ -16338,7 +16370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69311ecf-a274-4720-a153-48620b0414f5")
-		(property "Reference" "D41"
+		(property "Reference" "D42"
 			(at 347.98 90.1699 90)
 			(effects
 				(font
@@ -16408,9 +16440,9 @@
 			(uuid "d59e9a9d-1d21-4d7b-9caa-e6d9130fe4da")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D41")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -16474,7 +16506,7 @@
 			(uuid "c960255f-997e-4b27-8d59-9447c0ac767e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR020")
 					(unit 1)
@@ -16491,7 +16523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69dca53e-aa6f-4912-b82e-ce6c980dbf55")
-		(property "Reference" "MX53"
+		(property "Reference" "MX54"
 			(at 271.272 96.774 0)
 			(effects
 				(font
@@ -16541,9 +16573,9 @@
 			(uuid "88c225a8-e82b-45fd-b624-d80ad01bf615")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX53")
+					(reference "MX54")
 					(unit 1)
 				)
 			)
@@ -16559,7 +16591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6af59044-5d08-4c69-8852-50f2ea648a25")
-		(property "Reference" "D32"
+		(property "Reference" "D33"
 			(at 494.03 72.3899 90)
 			(effects
 				(font
@@ -16629,9 +16661,9 @@
 			(uuid "55e0e824-fd6b-421d-aa26-eb1c4fb77b42")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D32")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -16646,7 +16678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d647ad6-2452-4222-a689-81cbb5266d1c")
-		(property "Reference" "MX10"
+		(property "Reference" "MX11"
 			(at 423.672 43.434 0)
 			(effects
 				(font
@@ -16696,9 +16728,9 @@
 			(uuid "be19dba3-5cfb-4aee-b42f-ab3e1d77b0c9")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX10")
+					(reference "MX11")
 					(unit 1)
 				)
 			)
@@ -16713,7 +16745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e8f30f8-63b9-438a-a963-1304a0c09b54")
-		(property "Reference" "MX27"
+		(property "Reference" "MX28"
 			(at 408.432 61.214 0)
 			(effects
 				(font
@@ -16763,9 +16795,9 @@
 			(uuid "fa3a876c-8b60-4166-802b-9107f0d2e72e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX27")
+					(reference "MX28")
 					(unit 1)
 				)
 			)
@@ -16780,7 +16812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f581da6-7a89-49f3-a5fa-5079b7a9b3c7")
-		(property "Reference" "MX16"
+		(property "Reference" "MX17"
 			(at 524.002 43.434 0)
 			(effects
 				(font
@@ -16830,9 +16862,9 @@
 			(uuid "24334b8d-2e83-4a36-938e-6402fe4ffcf5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX16")
+					(reference "MX17")
 					(unit 1)
 				)
 			)
@@ -16848,7 +16880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd11920-1864-4ce8-ac42-394e07215a5d")
-		(property "Reference" "D35"
+		(property "Reference" "D36"
 			(at 256.54 90.1699 90)
 			(effects
 				(font
@@ -16918,9 +16950,9 @@
 			(uuid "48b55a9f-7481-4704-a0d8-4e03b6865247")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D35")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -16935,7 +16967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "701feaf9-7915-4c2b-bd3a-be106de518c4")
-		(property "Reference" "MX64"
+		(property "Reference" "MX65"
 			(at 438.912 96.774 0)
 			(effects
 				(font
@@ -16985,9 +17017,9 @@
 			(uuid "6e89a0c7-d2fe-4d7f-b263-ea492a6478d2")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX64")
+					(reference "MX65")
 					(unit 1)
 				)
 			)
@@ -17003,7 +17035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d770de-8017-43bf-b11e-779c92a38035")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 524.51 54.6099 90)
 			(effects
 				(font
@@ -17073,9 +17105,9 @@
 			(uuid "0af0e17f-3565-4b73-a296-4393b5893fdf")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -17091,7 +17123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7490d0b0-f47a-4cf9-bfb7-ccb29b3b3cdf")
-		(property "Reference" "D20"
+		(property "Reference" "D21"
 			(at 302.26 72.3899 90)
 			(effects
 				(font
@@ -17161,9 +17193,9 @@
 			(uuid "4bd6bb52-7099-4f88-a299-b18a1975658a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D20")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -17249,7 +17281,7 @@
 			(uuid "7ca81923-888b-4067-86c5-c020b4a71b9b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D7")
 					(unit 1)
@@ -17316,7 +17348,7 @@
 			(uuid "dac316f5-668a-4227-a553-ece3ede54207")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C15")
 					(unit 1)
@@ -17333,7 +17365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79249ce6-09ba-4cb6-97a6-454e70506eb8")
-		(property "Reference" "MX71"
+		(property "Reference" "MX72"
 			(at 347.472 114.554 0)
 			(effects
 				(font
@@ -17383,9 +17415,9 @@
 			(uuid "ed70bbf6-4ac2-4057-b407-5b701879a855")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX71")
+					(reference "MX72")
 					(unit 1)
 				)
 			)
@@ -17449,7 +17481,7 @@
 			(uuid "f7319066-c4fe-4d67-9301-56af46e5457c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR02")
 					(unit 1)
@@ -17515,7 +17547,7 @@
 			(uuid "cd9747ce-8cb3-47f4-9557-ab31dfa7c35b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR012")
 					(unit 1)
@@ -17532,7 +17564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b365f4b-9fd9-47af-8d08-642fe128c1a4")
-		(property "Reference" "MX49"
+		(property "Reference" "MX50"
 			(at 493.522 78.994 0)
 			(effects
 				(font
@@ -17582,9 +17614,9 @@
 			(uuid "269010d6-6d94-46ac-94aa-6c2b1604fe02")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX49")
+					(reference "MX50")
 					(unit 1)
 				)
 			)
@@ -17600,7 +17632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bb15d22-91dd-4c2d-bc9b-7f154c0a08e0")
-		(property "Reference" "D87"
+		(property "Reference" "D88"
 			(at 494.03 143.5099 90)
 			(effects
 				(font
@@ -17670,9 +17702,9 @@
 			(uuid "e4e79cd6-1455-47f1-b667-8c3f4c8dd586")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D87")
+					(reference "D88")
 					(unit 1)
 				)
 			)
@@ -17688,7 +17720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c754190-88ce-43dc-9c86-0fa5baa610ce")
-		(property "Reference" "D86"
+		(property "Reference" "D87"
 			(at 439.42 143.5099 90)
 			(effects
 				(font
@@ -17758,9 +17790,9 @@
 			(uuid "f6f9f280-9e15-4252-ba00-64c421e2dc8d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D86")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -17776,7 +17808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d264e5a-14fa-4a25-822b-374a8a7bee54")
-		(property "Reference" "D29"
+		(property "Reference" "D30"
 			(at 439.42 72.3899 90)
 			(effects
 				(font
@@ -17846,9 +17878,9 @@
 			(uuid "c8097c9d-5b17-4863-85cf-6bbf0122aa45")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D29")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -17864,7 +17896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e077cc0-154c-4f51-a4a2-beaecc80fdb1")
-		(property "Reference" "D59"
+		(property "Reference" "D60"
 			(at 363.22 107.9499 90)
 			(effects
 				(font
@@ -17934,9 +17966,9 @@
 			(uuid "9f598930-d528-424d-b621-2eec32928291")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D59")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -17952,7 +17984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7dbb0f-54bf-418f-8390-59a7222dee32")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 256.54 72.3899 90)
 			(effects
 				(font
@@ -18022,9 +18054,9 @@
 			(uuid "d8457516-b22a-464c-a805-30f6a9a63f79")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -18040,7 +18072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f8b42af-a37f-4616-aadb-46239ae57977")
-		(property "Reference" "D72"
+		(property "Reference" "D73"
 			(at 363.22 125.7299 90)
 			(effects
 				(font
@@ -18110,9 +18142,9 @@
 			(uuid "0796b16d-d476-4182-ad58-7c4f13228339")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D72")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -18128,7 +18160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "800b49a6-89de-40bc-be65-a65a871d38a1")
-		(property "Reference" "D37"
+		(property "Reference" "D38"
 			(at 287.02 90.1699 90)
 			(effects
 				(font
@@ -18198,9 +18230,9 @@
 			(uuid "fd7d7323-2801-4f3c-8061-c66354ee8160")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D37")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -18268,7 +18300,7 @@
 			(uuid "6968fe5f-90ee-4ba7-85e2-9b537e88bdb3")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C12")
 					(unit 1)
@@ -18286,7 +18318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820e2344-ea7f-400b-ada3-5605a818345c")
-		(property "Reference" "D43"
+		(property "Reference" "D44"
 			(at 378.46 90.1699 90)
 			(effects
 				(font
@@ -18356,9 +18388,9 @@
 			(uuid "490b2f4a-6b1f-4789-adaa-938579b1f279")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D43")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -18374,7 +18406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "829b65da-3882-4f0d-ac69-f222689c13f6")
-		(property "Reference" "D55"
+		(property "Reference" "D56"
 			(at 302.26 107.9499 90)
 			(effects
 				(font
@@ -18444,9 +18476,9 @@
 			(uuid "91194ad6-6490-4a3d-9ba8-d86dfd522de7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D55")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -18531,7 +18563,7 @@
 			(uuid "28e17fd2-f2ef-43ac-a263-aa8715e85460")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "U2")
 					(unit 1)
@@ -18549,7 +18581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8672a7f4-5c99-4989-85c0-039dbcbee4b8")
-		(property "Reference" "D89"
+		(property "Reference" "D90"
 			(at 524.51 143.5099 90)
 			(effects
 				(font
@@ -18619,9 +18651,9 @@
 			(uuid "02d0fd85-778d-4073-895a-050f317f2e7a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D89")
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -18637,7 +18669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "880206a3-96e9-429c-8a38-1c13ce5943cc")
-		(property "Reference" "D76"
+		(property "Reference" "D77"
 			(at 424.18 125.7299 90)
 			(effects
 				(font
@@ -18707,9 +18739,9 @@
 			(uuid "06576665-a92a-40c8-bd9d-0192071e6aa5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D76")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -18724,7 +18756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "883ac536-0260-4a03-9c49-5c58403a4e2a")
-		(property "Reference" "MX55"
+		(property "Reference" "MX56"
 			(at 301.752 96.774 0)
 			(effects
 				(font
@@ -18774,9 +18806,9 @@
 			(uuid "1260ea79-989b-4eb7-b20f-5afc64b5aae2")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX55")
+					(reference "MX56")
 					(unit 1)
 				)
 			)
@@ -18791,7 +18823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a5c5063-1473-43fd-baa6-e62da62c064b")
-		(property "Reference" "MX79"
+		(property "Reference" "MX80"
 			(at 256.032 132.334 0)
 			(effects
 				(font
@@ -18841,9 +18873,9 @@
 			(uuid "be9c09f7-d357-4d3c-b09a-bc905a834930")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX79")
+					(reference "MX80")
 					(unit 1)
 				)
 			)
@@ -18859,7 +18891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8abd30a2-b596-4cbd-a78b-3ecabc5c43a8")
-		(property "Reference" "D69"
+		(property "Reference" "D70"
 			(at 317.5 125.7299 90)
 			(effects
 				(font
@@ -18929,9 +18961,9 @@
 			(uuid "c8d78406-78a1-41d4-81bc-321caac6a6a4")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D69")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -18947,7 +18979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8afe09bf-9649-44bf-85b0-7e70f3688739")
-		(property "Reference" "D80"
+		(property "Reference" "D81"
 			(at 271.78 143.5099 90)
 			(effects
 				(font
@@ -19017,9 +19049,9 @@
 			(uuid "7798774b-3ef7-423c-ae99-e5cae8054e8f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D80")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -19035,7 +19067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c318e1c-e2a9-4949-aa44-c614a0638dc7")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 509.27 54.6099 90)
 			(effects
 				(font
@@ -19105,9 +19137,9 @@
 			(uuid "bd369dd4-5563-42b6-b081-06bd9b573336")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -19172,7 +19204,7 @@
 			(uuid "23caf02d-9ad6-488f-ace1-f81776272650")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX2")
 					(unit 1)
@@ -19190,7 +19222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d653291-90de-41a1-b8b7-21157bb65a62")
-		(property "Reference" "D24"
+		(property "Reference" "D25"
 			(at 363.22 72.3899 90)
 			(effects
 				(font
@@ -19260,9 +19292,9 @@
 			(uuid "d082619b-5f13-40c3-803b-db7fbb08b059")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D24")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -19277,7 +19309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f90b4b0-afac-4a6a-8704-255613585db2")
-		(property "Reference" "MX77"
+		(property "Reference" "MX78"
 			(at 438.912 114.554 0)
 			(effects
 				(font
@@ -19327,9 +19359,9 @@
 			(uuid "f4e6eec6-a160-46a5-b069-926ca2ee4c34")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX77")
+					(reference "MX78")
 					(unit 1)
 				)
 			)
@@ -19345,7 +19377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fa4a21c-1d90-4a5f-9d56-56ce9afedae6")
-		(property "Reference" "D85"
+		(property "Reference" "D86"
 			(at 424.18 143.5099 90)
 			(effects
 				(font
@@ -19415,9 +19447,9 @@
 			(uuid "34fe2964-5141-44d6-9730-c14af05910d9")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D85")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -19432,7 +19464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90442b16-8348-437e-959d-27ec40d14da2")
-		(property "Reference" "MX51"
+		(property "Reference" "MX52"
 			(at 524.002 78.994 0)
 			(effects
 				(font
@@ -19482,9 +19514,9 @@
 			(uuid "41e1f952-fe19-4120-a802-156ec2138968")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX51")
+					(reference "MX52")
 					(unit 1)
 				)
 			)
@@ -19554,7 +19586,7 @@
 			(uuid "7b349ab4-015f-4879-b38b-45348c767317")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "U1")
 					(unit 1)
@@ -19572,7 +19604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "915b6deb-69fb-48ee-a2d1-788146206c71")
-		(property "Reference" "D65"
+		(property "Reference" "D66"
 			(at 256.54 125.7299 90)
 			(effects
 				(font
@@ -19642,9 +19674,9 @@
 			(uuid "693b2dfb-8bea-4dda-b925-77cdfca55019")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D65")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -19660,7 +19692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91e7e0c7-f82e-4b91-b702-5e3a70c29010")
-		(property "Reference" "D61"
+		(property "Reference" "D62"
 			(at 393.7 107.9499 90)
 			(effects
 				(font
@@ -19730,9 +19762,9 @@
 			(uuid "66921ea9-2d6e-4ffe-a84e-a1f23fbf75b2")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D61")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -19800,7 +19832,7 @@
 			(uuid "2a6dfed0-0ab6-42fa-9d89-7e6546607106")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C7")
 					(unit 1)
@@ -19818,7 +19850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93ada9f0-77a2-4b1c-b79f-f97167da4c5a")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 469.9 54.6099 90)
 			(effects
 				(font
@@ -19888,9 +19920,9 @@
 			(uuid "bbc5d584-a1bc-4178-b26e-887b218e459b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -19905,7 +19937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9434baf1-2eed-4cb5-a54d-db774b05ba7c")
-		(property "Reference" "MX14"
+		(property "Reference" "MX15"
 			(at 493.522 43.434 0)
 			(effects
 				(font
@@ -19955,9 +19987,9 @@
 			(uuid "dcb3f6a5-a7f9-488e-9489-121bf5fced04")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX14")
+					(reference "MX15")
 					(unit 1)
 				)
 			)
@@ -20022,7 +20054,7 @@
 			(uuid "89965c25-9f36-4a67-a14e-e3090edfbf59")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "BOOTSEL1")
 					(unit 1)
@@ -20092,7 +20124,7 @@
 			(uuid "271382d2-407f-4f3b-9d29-1b912470fa81")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C1")
 					(unit 1)
@@ -20109,7 +20141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "970c67a0-7f9d-4ba4-9b14-f736ddafc282")
-		(property "Reference" "MX20"
+		(property "Reference" "MX21"
 			(at 301.752 61.214 0)
 			(effects
 				(font
@@ -20159,9 +20191,9 @@
 			(uuid "b226dcb1-b84c-489a-ae89-8aa6aee976d6")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX20")
+					(reference "MX21")
 					(unit 1)
 				)
 			)
@@ -20176,7 +20208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "975148d6-955c-4840-93ed-2e0b7b8e05f1")
-		(property "Reference" "MX31"
+		(property "Reference" "MX32"
 			(at 469.392 61.214 0)
 			(effects
 				(font
@@ -20226,9 +20258,9 @@
 			(uuid "438beecf-a3f2-4399-8e83-a8d2a27884b9")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX31")
+					(reference "MX32")
 					(unit 1)
 				)
 			)
@@ -20243,7 +20275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9933d440-aaad-4b91-afb5-ebb7f6f3792a")
-		(property "Reference" "MX11"
+		(property "Reference" "MX12"
 			(at 438.912 43.434 0)
 			(effects
 				(font
@@ -20293,9 +20325,9 @@
 			(uuid "d2fc8441-face-42ee-b411-3142b9a93b9a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX11")
+					(reference "MX12")
 					(unit 1)
 				)
 			)
@@ -20311,7 +20343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a740bad-c318-418c-a2ad-4238b8ea0360")
-		(property "Reference" "D38"
+		(property "Reference" "D39"
 			(at 302.26 90.1699 90)
 			(effects
 				(font
@@ -20381,9 +20413,9 @@
 			(uuid "c85c1967-7ca2-4cc3-9e6c-6a8d65e8c27b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D38")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -20448,7 +20480,7 @@
 			(uuid "5b4b18b7-e12e-445b-aea2-3004800d070d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX4")
 					(unit 1)
@@ -20465,7 +20497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9acbb841-8b2e-48fc-809d-984d79e5d9d5")
-		(property "Reference" "MX36"
+		(property "Reference" "MX37"
 			(at 271.272 78.994 0)
 			(effects
 				(font
@@ -20515,9 +20547,9 @@
 			(uuid "78e4753e-6415-4791-90a0-daad5dfed3f7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX36")
+					(reference "MX37")
 					(unit 1)
 				)
 			)
@@ -20585,7 +20617,7 @@
 			(uuid "40e9c59a-19db-4438-9cbd-366a9526f542")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C11")
 					(unit 1)
@@ -20652,7 +20684,7 @@
 			(uuid "b3777745-c596-4fcd-a734-53420297cf71")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX8")
 					(unit 1)
@@ -20669,7 +20701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dd7501a-c6ba-479f-a75b-ea9734072cd0")
-		(property "Reference" "MX80"
+		(property "Reference" "MX81"
 			(at 271.272 132.334 0)
 			(effects
 				(font
@@ -20719,9 +20751,9 @@
 			(uuid "e1f2e158-8ec7-4f15-b2a7-674950d1a616")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX80")
+					(reference "MX81")
 					(unit 1)
 				)
 			)
@@ -20789,7 +20821,7 @@
 			(uuid "23257f54-3642-431c-91a9-8312fddf2b31")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C6")
 					(unit 1)
@@ -20859,7 +20891,7 @@
 			(uuid "87f1b311-0e04-4f21-81db-056370def2f0")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C9")
 					(unit 1)
@@ -20929,7 +20961,7 @@
 			(uuid "96ca6fd5-5c7f-4f21-8bcc-967b7c700246")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D94")
 					(unit 1)
@@ -20947,7 +20979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a52269b4-fb1f-4b65-854c-284132d477eb")
-		(property "Reference" "D74"
+		(property "Reference" "D75"
 			(at 393.7 125.7299 90)
 			(effects
 				(font
@@ -21017,9 +21049,9 @@
 			(uuid "0cef18f2-fb68-417b-8ab4-aa0fdb0b83e7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D74")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -21034,7 +21066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a57baec8-91c2-42ca-9a7c-a95aaa635777")
-		(property "Reference" "MX61"
+		(property "Reference" "MX62"
 			(at 393.192 96.774 0)
 			(effects
 				(font
@@ -21084,9 +21116,9 @@
 			(uuid "ccdc2fb7-9405-48e0-b0e0-bf9526241847")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX61")
+					(reference "MX62")
 					(unit 1)
 				)
 			)
@@ -21158,7 +21190,7 @@
 			(uuid "bafdf4b7-f485-4f7d-901f-8ef7d965d549")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "J1")
 					(unit 1)
@@ -21176,7 +21208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9226596-d29c-4425-9ace-871ccbdf8777")
-		(property "Reference" "D79"
+		(property "Reference" "D80"
 			(at 256.54 143.5099 90)
 			(effects
 				(font
@@ -21246,9 +21278,9 @@
 			(uuid "b86b3f61-7d0f-4346-a3af-d5b638dabe2c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D79")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -21312,7 +21344,7 @@
 			(uuid "5eda3617-0f8b-4299-b1f9-16bd037ccbe5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR06")
 					(unit 1)
@@ -21330,7 +21362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa67414e-869a-4f88-9968-8298d6088e27")
-		(property "Reference" "D70"
+		(property "Reference" "D71"
 			(at 332.74 125.7299 90)
 			(effects
 				(font
@@ -21400,9 +21432,9 @@
 			(uuid "b0f6b251-04f5-4b3d-a13e-7d86764dc950")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D70")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -21417,7 +21449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aae1f6e5-22a8-4c20-bff7-ad675ebc737b")
-		(property "Reference" "MX78"
+		(property "Reference" "MX79"
 			(at 508.762 114.554 0)
 			(effects
 				(font
@@ -21467,9 +21499,9 @@
 			(uuid "bf641f9f-de63-44f2-b7a5-bc8214c90958")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX78")
+					(reference "MX79")
 					(unit 1)
 				)
 			)
@@ -21484,7 +21516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab558ddb-3b8d-4bff-b1b0-ff55f504d4c7")
-		(property "Reference" "MX73"
+		(property "Reference" "MX74"
 			(at 377.952 114.554 0)
 			(effects
 				(font
@@ -21534,9 +21566,9 @@
 			(uuid "7ff69617-5f00-476c-8fe1-e69b4c28ce6e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX73")
+					(reference "MX74")
 					(unit 1)
 				)
 			)
@@ -21551,7 +21583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac0d60d6-3011-4fdb-a8cf-24418d21da07")
-		(property "Reference" "MX33"
+		(property "Reference" "MX34"
 			(at 508.762 61.214 0)
 			(effects
 				(font
@@ -21601,9 +21633,9 @@
 			(uuid "03904e0f-cefa-408f-a9f3-fdf11e0b9e95")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX33")
+					(reference "MX34")
 					(unit 1)
 				)
 			)
@@ -21667,7 +21699,7 @@
 			(uuid "9fbfd4fd-b734-419d-9278-9b6ee89215ac")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR019")
 					(unit 1)
@@ -21734,7 +21766,7 @@
 			(uuid "77441d79-9322-475a-b0c9-d4e91dccf629")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX9")
 					(unit 1)
@@ -21801,7 +21833,7 @@
 			(uuid "164713e5-e935-4417-aee6-a2e1f1dab0bd")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "R5")
 					(unit 1)
@@ -21819,7 +21851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b116cf0f-fcc9-4ae4-b338-c260eaf9bf81")
-		(property "Reference" "D42"
+		(property "Reference" "D43"
 			(at 363.22 90.1699 90)
 			(effects
 				(font
@@ -21889,9 +21921,9 @@
 			(uuid "df83547c-1eab-494e-ba67-d681b0c8a94d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D42")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -21906,7 +21938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b211f29b-b0ba-4f75-af8f-d84cc357aa78")
-		(property "Reference" "MX50"
+		(property "Reference" "MX51"
 			(at 508.762 78.994 0)
 			(effects
 				(font
@@ -21956,9 +21988,9 @@
 			(uuid "1ed511b3-1c59-44fe-8b8a-4c0743f1f8de")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX50")
+					(reference "MX51")
 					(unit 1)
 				)
 			)
@@ -22024,7 +22056,7 @@
 			(uuid "28abfd45-d19e-4725-a55e-ad40463a73f5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C16")
 					(unit 1)
@@ -22112,7 +22144,7 @@
 			(uuid "dab9c7fa-192c-43ef-a231-43fd5f13e74d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D5")
 					(unit 1)
@@ -22178,7 +22210,7 @@
 			(uuid "eee42904-e4f8-4b1b-8887-aaa05b823668")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR021")
 					(unit 1)
@@ -22195,7 +22227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6386b39-9862-43eb-bb3e-cd6f2508516e")
-		(property "Reference" "MX54"
+		(property "Reference" "MX55"
 			(at 286.512 96.774 0)
 			(effects
 				(font
@@ -22245,9 +22277,9 @@
 			(uuid "bfe85e8e-34f9-4c98-860f-65cf044f5c3a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX54")
+					(reference "MX55")
 					(unit 1)
 				)
 			)
@@ -22263,7 +22295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b64ec5a0-b9e0-40a5-8576-6183022f4c20")
-		(property "Reference" "D51"
+		(property "Reference" "D52"
 			(at 524.51 90.1699 90)
 			(effects
 				(font
@@ -22333,9 +22365,9 @@
 			(uuid "abcd2998-eeda-4c27-a441-c6b5cd85d1c0")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D51")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -22399,9 +22431,97 @@
 			(uuid "d0165e0f-b9cc-43af-8bf5-280a16071063")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 406.4 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b99e7b57-9113-4fcd-8a23-f0f3c686029a")
+		(property "Reference" "D10"
+			(at 408.94 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 408.94 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_noref2"
+			(at 406.4 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 406.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 406.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 406.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3581e13-7b52-478d-a5ff-6130c22dff51")
+		)
+		(pin "2"
+			(uuid "dc29d447-e0b2-466d-b2a0-dd6014b52164")
+		)
+		(instances
+			(project "rubrejaneTKL_RP2040_Piano"
+				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -22416,7 +22536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9aa9e30-5a33-4af2-bb04-f4e440f2578a")
-		(property "Reference" "MX74"
+		(property "Reference" "MX75"
 			(at 393.192 114.554 0)
 			(effects
 				(font
@@ -22466,9 +22586,9 @@
 			(uuid "c10118f5-d29c-4507-878f-3f23afc7e463")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX74")
+					(reference "MX75")
 					(unit 1)
 				)
 			)
@@ -22483,7 +22603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba391f76-db91-43be-91c5-7963559f4d45")
-		(property "Reference" "MX75"
+		(property "Reference" "MX76"
 			(at 408.432 114.554 0)
 			(effects
 				(font
@@ -22533,9 +22653,9 @@
 			(uuid "62f484d0-3839-4686-8455-548b5cf9db0d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX75")
+					(reference "MX76")
 					(unit 1)
 				)
 			)
@@ -22550,7 +22670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bad46ba4-a8bc-4f27-bea6-0b4bf0e0e83d")
-		(property "Reference" "MX85"
+		(property "Reference" "MX86"
 			(at 423.672 132.334 0)
 			(effects
 				(font
@@ -22600,9 +22720,9 @@
 			(uuid "de29f171-a0e3-41d5-a2c8-53b4c971a4b5")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX85")
+					(reference "MX86")
 					(unit 1)
 				)
 			)
@@ -22618,7 +22738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb48b7d2-e290-4e14-95c6-97007f9f1703")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 494.03 54.6099 90)
 			(effects
 				(font
@@ -22688,9 +22808,9 @@
 			(uuid "97fca5ca-a39e-4629-82dc-d6c2c9d9ae4e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -22758,7 +22878,7 @@
 			(uuid "0cd57c4b-806e-4bda-a99d-22dfc9e961bb")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C3")
 					(unit 1)
@@ -22846,7 +22966,7 @@
 			(uuid "2b690d9b-e170-4039-834a-0e8e312ba777")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D9")
 					(unit 1)
@@ -22913,7 +23033,7 @@
 			(uuid "34a34513-f660-4a83-8586-28536024edef")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "R6")
 					(unit 1)
@@ -22930,7 +23050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be7854f2-3b4e-47ce-9b76-92ab0b3e461d")
-		(property "Reference" "MX48"
+		(property "Reference" "MX49"
 			(at 454.152 78.994 0)
 			(effects
 				(font
@@ -22980,9 +23100,9 @@
 			(uuid "1fb1328c-c6db-4bb1-b513-cc44fcdd97cb")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX48")
+					(reference "MX49")
 					(unit 1)
 				)
 			)
@@ -22997,7 +23117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfdcc5db-f1f1-4c8e-9fb3-9f1fe3e877eb")
-		(property "Reference" "MX56"
+		(property "Reference" "MX57"
 			(at 316.992 96.774 0)
 			(effects
 				(font
@@ -23047,9 +23167,9 @@
 			(uuid "0f20081e-f726-47f4-be66-4d048b8ada72")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX56")
+					(reference "MX57")
 					(unit 1)
 				)
 			)
@@ -23135,7 +23255,7 @@
 			(uuid "9e30ddc3-9aab-47a6-9e44-3e25754e74e6")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D3")
 					(unit 1)
@@ -23153,7 +23273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1581422-4794-4ea4-b43c-0784439f960d")
-		(property "Reference" "D60"
+		(property "Reference" "D61"
 			(at 378.46 107.9499 90)
 			(effects
 				(font
@@ -23223,9 +23343,9 @@
 			(uuid "60b3acab-5dda-44f8-a58a-038a14c4413e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D60")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -23311,7 +23431,7 @@
 			(uuid "422b0d46-1615-4b67-b015-be1db8af1f65")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "D4")
 					(unit 1)
@@ -23377,7 +23497,7 @@
 			(uuid "c7a82395-60c0-438f-9a4b-be78c0d15095")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR04")
 					(unit 1)
@@ -23443,7 +23563,7 @@
 			(uuid "4796df77-62e2-46f8-b088-3f7fc766c276")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR05")
 					(unit 1)
@@ -23461,7 +23581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3dae57d-59f9-4d27-a65a-26b3e7944307")
-		(property "Reference" "D19"
+		(property "Reference" "D20"
 			(at 287.02 72.3899 90)
 			(effects
 				(font
@@ -23531,9 +23651,9 @@
 			(uuid "485363c2-3809-4d16-855f-ae6163ea5161")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D19")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -23548,7 +23668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3e185fe-6ce2-4293-928b-3506460d4a58")
-		(property "Reference" "MX23"
+		(property "Reference" "MX24"
 			(at 347.472 61.214 0)
 			(effects
 				(font
@@ -23598,9 +23718,9 @@
 			(uuid "48afa87d-ebd7-40d0-ad18-7910ef0eb48a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX23")
+					(reference "MX24")
 					(unit 1)
 				)
 			)
@@ -23616,7 +23736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4e7e8ac-4603-408e-af4e-765560c057d7")
-		(property "Reference" "D53"
+		(property "Reference" "D54"
 			(at 271.78 107.9499 90)
 			(effects
 				(font
@@ -23686,9 +23806,9 @@
 			(uuid "94af20f6-9f17-46b5-8418-7e123d9177d4")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D53")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -23756,7 +23876,7 @@
 			(uuid "d2dc9788-ed07-4c1e-b274-73df971cec96")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C13")
 					(unit 1)
@@ -23773,7 +23893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca99d98d-36fa-49bd-905c-b1537e923605")
-		(property "Reference" "MX37"
+		(property "Reference" "MX38"
 			(at 286.512 78.994 0)
 			(effects
 				(font
@@ -23823,9 +23943,9 @@
 			(uuid "56a8be20-2057-44f5-ac12-f57754c4705b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX37")
+					(reference "MX38")
 					(unit 1)
 				)
 			)
@@ -23840,7 +23960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb3bae7c-fc04-479f-b600-41484b8628a0")
-		(property "Reference" "MX52"
+		(property "Reference" "MX53"
 			(at 256.032 96.774 0)
 			(effects
 				(font
@@ -23890,9 +24010,9 @@
 			(uuid "c9a51ac8-eb27-49b8-8071-53becd076b44")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX52")
+					(reference "MX53")
 					(unit 1)
 				)
 			)
@@ -23908,7 +24028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc183d68-2ff9-4ae6-8862-bd5c0ca2b7ad")
-		(property "Reference" "D66"
+		(property "Reference" "D67"
 			(at 271.78 125.7299 90)
 			(effects
 				(font
@@ -23978,9 +24098,9 @@
 			(uuid "ca8fb6b9-30f3-49e5-8562-e3e5dddc6733")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D66")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -24044,7 +24164,7 @@
 			(uuid "ee737961-6c68-4ce5-ba11-365be5a61636")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR013")
 					(unit 1)
@@ -24109,7 +24229,7 @@
 			(uuid "ca39e16c-1d0e-4012-8815-52965da90aab")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR03")
 					(unit 1)
@@ -24126,7 +24246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25d5bdf-f16f-4d43-8a2d-56becd309ee0")
-		(property "Reference" "MX45"
+		(property "Reference" "MX46"
 			(at 408.432 78.994 0)
 			(effects
 				(font
@@ -24176,9 +24296,9 @@
 			(uuid "6037ded3-93a1-406a-857a-8268d205ce76")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX45")
+					(reference "MX46")
 					(unit 1)
 				)
 			)
@@ -24194,7 +24314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d27a2174-f137-439b-aa9a-7a77f610a400")
-		(property "Reference" "D48"
+		(property "Reference" "D49"
 			(at 454.66 90.1699 90)
 			(effects
 				(font
@@ -24264,9 +24384,9 @@
 			(uuid "6f01b463-4cfd-43ef-add8-8f376c7f1461")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D48")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -24281,7 +24401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4591015-4dfb-4223-8c6b-141fd3f3b106")
-		(property "Reference" "MX26"
+		(property "Reference" "MX27"
 			(at 393.192 61.214 0)
 			(effects
 				(font
@@ -24331,9 +24451,9 @@
 			(uuid "af7b492d-be0f-4b28-af34-0284de08500d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX26")
+					(reference "MX27")
 					(unit 1)
 				)
 			)
@@ -24349,7 +24469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6548b3f-2387-4ad1-9c4b-a22d44f50926")
-		(property "Reference" "D82"
+		(property "Reference" "D83"
 			(at 332.74 143.5099 90)
 			(effects
 				(font
@@ -24419,9 +24539,9 @@
 			(uuid "a68ba588-792d-49bb-bde3-3b7eba62355c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D82")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -24436,7 +24556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d838d264-be95-4524-998b-beabbd5b38ba")
-		(property "Reference" "MX87"
+		(property "Reference" "MX88"
 			(at 493.522 132.334 0)
 			(effects
 				(font
@@ -24486,9 +24606,9 @@
 			(uuid "eceef1bb-8c4f-478d-b78e-d82e7219927c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX87")
+					(reference "MX88")
 					(unit 1)
 				)
 			)
@@ -24504,7 +24624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d87acf91-f0f8-418c-815f-621cd4867139")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 454.66 54.6099 90)
 			(effects
 				(font
@@ -24574,9 +24694,9 @@
 			(uuid "8ef4f73f-ae49-437f-86a6-b494b8b65499")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -24592,7 +24712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc143ecf-a17a-4264-94d5-211e8bfda9a3")
-		(property "Reference" "D88"
+		(property "Reference" "D89"
 			(at 509.27 143.5099 90)
 			(effects
 				(font
@@ -24662,9 +24782,9 @@
 			(uuid "ecfb0620-7d45-4396-bea1-1edde16ed94d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D88")
+					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -24679,7 +24799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcfa9682-e4cd-4b58-a2ad-71a9d5db4768")
-		(property "Reference" "MX35"
+		(property "Reference" "MX36"
 			(at 256.032 78.994 0)
 			(effects
 				(font
@@ -24729,9 +24849,9 @@
 			(uuid "5469b890-1064-4091-901f-a539822c81eb")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX35")
+					(reference "MX36")
 					(unit 1)
 				)
 			)
@@ -24746,7 +24866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd34566a-b54f-4d50-8313-1ac261eaf107")
-		(property "Reference" "MX29"
+		(property "Reference" "MX30"
 			(at 438.912 61.214 0)
 			(effects
 				(font
@@ -24796,9 +24916,9 @@
 			(uuid "8f61df73-ef48-484c-9464-dd65bbba8a46")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX29")
+					(reference "MX30")
 					(unit 1)
 				)
 			)
@@ -24814,7 +24934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dda315e0-44b8-4c5d-8c10-79e3c6f7ef3e")
-		(property "Reference" "D22"
+		(property "Reference" "D23"
 			(at 332.74 72.3899 90)
 			(effects
 				(font
@@ -24884,9 +25004,76 @@
 			(uuid "48fd3186-f0c9-42b4-972e-9645a9b4cadb")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D22")
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 403.86 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de77a83c-b873-4ef1-9b16-fb42e003de11")
+		(property "Reference" "MX10"
+			(at 408.432 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 408.432 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_NoSilkscreen_narrow"
+			(at 403.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 403.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 403.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb68f9ee-987a-4510-bf61-e025f8e0ddd2")
+		)
+		(pin "2"
+			(uuid "19a236b8-d495-4298-b2fc-d4e71accd060")
+		)
+		(instances
+			(project "rubrejaneTKL_RP2040_Piano"
+				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
+					(reference "MX10")
 					(unit 1)
 				)
 			)
@@ -24954,7 +25141,7 @@
 			(uuid "9178630c-23f7-46b8-81d1-aa7f95c6f058")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C17")
 					(unit 1)
@@ -24972,7 +25159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3501f8c-74fd-4f06-9272-380e0252e5bd")
-		(property "Reference" "D39"
+		(property "Reference" "D40"
 			(at 317.5 90.1699 90)
 			(effects
 				(font
@@ -25042,9 +25229,9 @@
 			(uuid "b134d0ac-87b9-4863-9104-14a5d162f12f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D39")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -25060,7 +25247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3bc8380-1f49-4ffc-9e46-cbf8279dfb13")
-		(property "Reference" "D45"
+		(property "Reference" "D46"
 			(at 408.94 90.1699 90)
 			(effects
 				(font
@@ -25130,9 +25317,9 @@
 			(uuid "55e1fefe-023a-4401-ab97-1b18e570f261")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D45")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -25197,7 +25384,7 @@
 			(uuid "d4674cbe-851d-4e63-91bd-31a675200271")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "R8")
 					(unit 1)
@@ -25262,7 +25449,7 @@
 			(uuid "984cc873-4bcb-4a04-bcf7-3dd6b070f3a7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR011")
 					(unit 1)
@@ -25329,7 +25516,7 @@
 			(uuid "cd65905e-6914-43a7-b256-67fb241dfea8")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "MX6")
 					(unit 1)
@@ -25395,7 +25582,7 @@
 			(uuid "47f72cd6-980c-4026-92a3-325d620addb7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR08")
 					(unit 1)
@@ -25413,7 +25600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e947f2f2-61d2-4194-bd81-1007b9ae00e0")
-		(property "Reference" "D44"
+		(property "Reference" "D45"
 			(at 393.7 90.1699 90)
 			(effects
 				(font
@@ -25483,9 +25670,9 @@
 			(uuid "e1747438-f7a2-4a65-ae27-3a95f4fbb55d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D44")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -25550,7 +25737,7 @@
 			(uuid "7f7142a3-dfa2-4964-a1d5-f5b6738c3b2d")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR010")
 					(unit 1)
@@ -25568,7 +25755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaf172e0-2ba8-4b82-a69e-02e2997f9779")
-		(property "Reference" "D23"
+		(property "Reference" "D24"
 			(at 347.98 72.3899 90)
 			(effects
 				(font
@@ -25638,9 +25825,9 @@
 			(uuid "82ddef71-a0e6-48c6-8f01-b09d32152d6f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D23")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -25656,7 +25843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb4433da-8e30-49a5-a051-ffcb4c0ef61a")
-		(property "Reference" "D52"
+		(property "Reference" "D53"
 			(at 256.54 107.9499 90)
 			(effects
 				(font
@@ -25726,9 +25913,9 @@
 			(uuid "ab078e04-19f6-4bba-9d88-f76bae86c94f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D52")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -25743,7 +25930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec1b73cc-82ce-4dc0-ae84-c83f69f16282")
-		(property "Reference" "MX82"
+		(property "Reference" "MX83"
 			(at 332.232 132.334 0)
 			(effects
 				(font
@@ -25793,9 +25980,9 @@
 			(uuid "3c458f73-51be-493e-97da-ba8832439dc7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX82")
+					(reference "MX83")
 					(unit 1)
 				)
 			)
@@ -25811,7 +25998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec75de97-4405-4b47-aed5-a0e201cbe3a2")
-		(property "Reference" "D63"
+		(property "Reference" "D64"
 			(at 424.18 107.9499 90)
 			(effects
 				(font
@@ -25881,9 +26068,9 @@
 			(uuid "7e7cebf2-9396-411a-8d28-c2664bee87d7")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D63")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -25899,7 +26086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f0724e-a9b4-4d74-9e20-ee34b92b123e")
-		(property "Reference" "D84"
+		(property "Reference" "D85"
 			(at 408.94 143.5099 90)
 			(effects
 				(font
@@ -25969,9 +26156,9 @@
 			(uuid "595b78fb-0324-4273-a542-88aa7cc58ccf")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D84")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -25987,7 +26174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1726d25-87ba-49f9-b8e2-e56fd268fd9a")
-		(property "Reference" "D47"
+		(property "Reference" "D48"
 			(at 439.42 90.1699 90)
 			(effects
 				(font
@@ -26057,9 +26244,9 @@
 			(uuid "5a4cdb29-bfd1-417e-82fb-f5f55da81b31")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D47")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -26074,7 +26261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f28d02e7-92e6-4b26-838a-d0730ec570cd")
-		(property "Reference" "MX43"
+		(property "Reference" "MX44"
 			(at 377.952 78.994 0)
 			(effects
 				(font
@@ -26124,9 +26311,9 @@
 			(uuid "98fca002-9514-4502-b0ac-b22cf993427f")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX43")
+					(reference "MX44")
 					(unit 1)
 				)
 			)
@@ -26190,7 +26377,7 @@
 			(uuid "6c998bd0-230c-4fa8-bfcb-f7cee696802b")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR01")
 					(unit 1)
@@ -26255,7 +26442,7 @@
 			(uuid "adf09c25-ad70-4fba-bb36-252cf0f0633c")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR018")
 					(unit 1)
@@ -26325,7 +26512,7 @@
 			(uuid "588b1bf9-fa25-4901-9b8b-4ef49bfe9e78")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "C10")
 					(unit 1)
@@ -26342,7 +26529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4b8e34c-3f20-4305-a8d2-4cffa94f0daf")
-		(property "Reference" "MX21"
+		(property "Reference" "MX22"
 			(at 316.992 61.214 0)
 			(effects
 				(font
@@ -26392,9 +26579,9 @@
 			(uuid "ea91a077-ff90-4a2f-b07b-538ded6b610a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX21")
+					(reference "MX22")
 					(unit 1)
 				)
 			)
@@ -26409,7 +26596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6bd5f32-8c61-4680-943f-2a7b541d0e51")
-		(property "Reference" "MX18"
+		(property "Reference" "MX19"
 			(at 271.272 61.214 0)
 			(effects
 				(font
@@ -26459,9 +26646,9 @@
 			(uuid "1f248c3f-b508-4adb-aafb-8e46aa9bc79a")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX18")
+					(reference "MX19")
 					(unit 1)
 				)
 			)
@@ -26524,7 +26711,7 @@
 			(uuid "a68acad5-fa5d-4f92-802d-43d984d2df71")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
 					(reference "#PWR09")
 					(unit 1)
@@ -26541,7 +26728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8b51b6c-3bb5-4ab9-9d35-2b13bb62e982")
-		(property "Reference" "MX47"
+		(property "Reference" "MX48"
 			(at 438.912 78.994 0)
 			(effects
 				(font
@@ -26591,9 +26778,9 @@
 			(uuid "9c5d4ba1-bd1a-4296-943b-0ae2656f2319")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX47")
+					(reference "MX48")
 					(unit 1)
 				)
 			)
@@ -26609,7 +26796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e2075f-198f-4f2d-a7cd-8e46efc38e19")
-		(property "Reference" "D78"
+		(property "Reference" "D79"
 			(at 509.27 125.7299 90)
 			(effects
 				(font
@@ -26679,9 +26866,9 @@
 			(uuid "58e1d76e-9764-4f3b-aeef-df82d9b1b0c0")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D78")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -26696,7 +26883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f91b1dda-fee8-4e5f-8c30-13d12d2f6fbb")
-		(property "Reference" "MX88"
+		(property "Reference" "MX89"
 			(at 508.762 132.334 0)
 			(effects
 				(font
@@ -26746,9 +26933,9 @@
 			(uuid "a32e2f1c-14e2-4e10-9c11-7f2fa8568ef8")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "MX88")
+					(reference "MX89")
 					(unit 1)
 				)
 			)
@@ -26764,7 +26951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb27784a-3d01-45b6-94ce-fff478cf6741")
-		(property "Reference" "D77"
+		(property "Reference" "D78"
 			(at 439.42 125.7299 90)
 			(effects
 				(font
@@ -26834,9 +27021,9 @@
 			(uuid "532c3079-34cd-4ddb-8c7e-55934932db9e")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D77")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -26852,7 +27039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3ea715-53b6-45dd-8621-d38ff7703d86")
-		(property "Reference" "D68"
+		(property "Reference" "D69"
 			(at 302.26 125.7299 90)
 			(effects
 				(font
@@ -26922,9 +27109,9 @@
 			(uuid "c7b24029-e192-4a62-8db3-89410c42d1c1")
 		)
 		(instances
-			(project "rubrejaneTKL_RP2040_narrow"
+			(project "rubrejaneTKL_RP2040_Piano"
 				(path "/1f021452-8c9b-4573-baeb-22f6c0ef7bde"
-					(reference "D68")
+					(reference "D69")
 					(unit 1)
 				)
 			)
